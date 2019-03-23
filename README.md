@@ -1,5 +1,5 @@
-# Selenium-task
-Claroty's Selenium home assignment
+# Claroty-task
+Claroty's home assignment
 
 ### The task:
 Write the below tests using Selenium:
