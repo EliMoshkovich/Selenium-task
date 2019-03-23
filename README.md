@@ -13,14 +13,15 @@ Write the below tests using Selenium:
 
 ### Requirments
 * python 3
-* python selenium (`pip install selenium`, see here: https://selenium-python.readthedocs.io/installation.html)
+* python selenium (`pip install selenium`, for more info see here: https://selenium-python.readthedocs.io/installation.html)
 * google chrome
 * google chrome webdriver (get it here: http://chromedriver.chromium.org/downloads. Make sure it's the same version as you own chrome browser's version)
 
 ### Running the program
-In order to run this task:
+
 1. clone this repo
-2. run `main.py`
+2. make sure you have all the Requirments
+3. run `main.py`
  
 
 
