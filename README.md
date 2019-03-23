@@ -1,8 +1,6 @@
 # Selenium-task
 Claroty's Selenium home assignment
 
-This is a home assignment from claroty (https://www.claroty.com).
-
 ### The task:
 Write the below tests using Selenium:
 
