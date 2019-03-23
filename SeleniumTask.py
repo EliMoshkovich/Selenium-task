@@ -44,7 +44,7 @@ def firstLink(driver , url_first_link):
     if driver.current_url == url_first_link:
         print(driver.current_url , 'Is the first link of google search results')
     else:
-        print("https://www.claroty.com/  Is not the first link of google search results")
+        print(url_first_link, "Is not the first link of google search results")
 
 def clarotyJobs(driver,  careers_url):
 
