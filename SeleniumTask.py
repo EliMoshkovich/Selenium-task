@@ -18,7 +18,7 @@ def resultsNumber(driver):
     "Function will search claroty at google and print to console results number"
 
     # open google
-    driver.get("http:google.com")
+    driver.get("https://www.google.com/")
     # locate the search field
     search = driver.find_element_by_name('q')
     # type "Claroty" into search field
