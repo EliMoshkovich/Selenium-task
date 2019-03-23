@@ -16,7 +16,8 @@ In order to execute, you will need the following to be installed on your compute
 * python 3
 * python selenium (`pip install selenium`, for more info see here: https://selenium-python.readthedocs.io/installation.html)
 * google chrome
-* google chrome webdriver (get it here: http://chromedriver.chromium.org/downloads. Make sure it's the same version as you own chrome browser's version)
+* google chrome webdriver (get it here: http://chromedriver.chromium.org/downloads. Make sure it's the same version as you own chrome browser's version), 
+download and put the exe file in chromedriver folder (Currently the folder contains chromedriver corresponding to version 73 of chrome)
 
 ### Running the program
 
