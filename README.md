@@ -15,7 +15,7 @@ Write the below tests using Selenium:
 
 ### Requirments
 * python 3
-* python selenium (`pip install selenium`, see here: https://selenium-python.readthedocs.io/)
+* python selenium (`pip install selenium`, see here: https://selenium-python.readthedocs.io/installation.html)
 * google chrome
 * google chrome webdriver (get it here: http://chromedriver.chromium.org/downloads. Make sure it's the same version as you own chrome browser's version)
 
