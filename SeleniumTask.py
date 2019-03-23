@@ -9,7 +9,7 @@ def driverInitialize():
     "Please replace the driver path below according to your own driver location"
 
     # create your webdriver
-    chromedriver = "C:/Users/Eli/Desktop/chromedriver.exe"
+    chromedriver = "chromedriver/chromedriver.exe"
     driver = webdriver.Chrome(chromedriver)
     return driver
 
