@@ -12,6 +12,7 @@ Write the below tests using Selenium:
 6. Print to console the number of carriers
 
 ### Requirments
+In order to execute, you will need the following to be installed on your computer:
 * python 3
 * python selenium (`pip install selenium`, for more info see here: https://selenium-python.readthedocs.io/installation.html)
 * google chrome
