@@ -1,7 +1,7 @@
 from SeleniumTask import *
 
 
-def program():
+def main():
 
     " Starting the task  "
 
@@ -12,4 +12,7 @@ def program():
     exit(browser_driver)
 
 
-program()
+if __name__ == "__main__":
+    # execute only if run as a script
+    main()
+

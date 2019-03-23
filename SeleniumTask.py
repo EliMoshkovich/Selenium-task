@@ -1,3 +1,4 @@
+import re
 import time
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
@@ -26,9 +27,11 @@ def resultsNumber(driver):
     # hit return after you enter search text
     search.send_keys(Keys.RETURN)
     # locate the resultStats element
-    result_stats = driver.find_element_by_id('resultStats')
+    result_str = driver.find_element_by_id('resultStats')
+    #using regex for get only integer result
+    res_dig=int(''.join(elem for elem in re.findall(r'\d*', re.sub(r'\(.*?\)', '', result_str.text)) if elem.isdigit()))
     # print the text of resultStats
-    print("Results number by google search for Claroty is: " , result_stats.text)
+    print("Results number by google search for Claroty is: " , res_dig)
 
 def firstLink(driver):
 
